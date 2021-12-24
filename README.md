@@ -1,4 +1,4 @@
-# Parameterization of Hypercomplex Multiplications (PHM Layers and PHM-Transformer)
+# Parameterization of Hypercomplex Multiplications (PHM Layers and PHM-Transformers)
 
 This repository contains the TensorFlow implementation of PHM (Parameterization of Hypercomplex Multiplication) layers and PHM-Transformers in the paper [Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with 1/n Parameters](https://arxiv.org/pdf/2102.08597.pdf) at ICLR 2021.
 
@@ -60,7 +60,7 @@ Then `t2t-bleu` is invoked for calculating the BLEU.
 
 The PHM layers are implemented with operations in [`make_random_mul`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L205) and [`random_ffn`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L252), which are mathematically equivalent to sum of Kronecker products.
 
-Other possible ways of PHM implementations can be found in:
+Alternative implementations and resources of PHM layers can be found at:
 
 * [demegire/Parameterization-of-Hypercomplex-Multiplications](https://github.com/demegire/Parameterization-of-Hypercomplex-Multiplications)
 * [Parameterized Hypercomplex Graph Neural Networks](https://github.com/bayer-science-for-a-better-life/phc-gnn)
