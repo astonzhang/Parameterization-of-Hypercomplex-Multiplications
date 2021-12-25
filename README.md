@@ -65,12 +65,11 @@ Then `t2t-bleu` is invoked for calculating the BLEU.
 
 PHM is implemented with operations in [`make_random_mul`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L205) and [`random_ffn`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L252), which are mathematically equivalent to sum of Kronecker products.
 
-So far there has been a growing number of works using PHM. Alternative PHM implementations can be found at:
+Among works that use PHM, some have offered alternative PHM implementations:
 
 * [Parameterized Hypercomplex Graph Neural Networks](https://github.com/bayer-science-for-a-better-life/phc-gnn)
 * [COMPACTER: Efficient Low-Rank Hypercomplex Adapter Layers](https://github.com/rabeehk/compacter/tree/main/seq2seq/hypercomplex)
-* [Convolutional Neural Networks by Hypercomplex Parameterization](https://github.com/eleGAN23/HyperNets) <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lightweight-convolutional-neural-networks-by/on-1)](https://paperswithcode.com/sota/on-1?p=lightweight-convolutional-neural-networks-by) -->
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lightweight-convolutional-neural-networks-by/sound-event-detection-on-l3das21)](https://paperswithcode.com/sota/sound-event-detection-on-l3das21?p=lightweight-convolutional-neural-networks-by) 
+* [Convolutional Neural Networks by Hypercomplex Parameterization](https://github.com/eleGAN23/HyperNets)
 * [demegire/Parameterization-of-Hypercomplex-Multiplications](https://github.com/demegire/Parameterization-of-Hypercomplex-Multiplications)
 
 
