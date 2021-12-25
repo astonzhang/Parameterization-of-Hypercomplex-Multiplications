@@ -1,6 +1,11 @@
-# Parameterization of Hypercomplex Multiplications (PHM Layers and PHM-Transformers)
+# Parameterization of Hypercomplex Multiplications (PHM)
 
 This repository contains the TensorFlow implementation of PHM (Parameterization of Hypercomplex Multiplication) layers and PHM-Transformers in the paper [Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with 1/n Parameters](https://arxiv.org/pdf/2102.08597.pdf) at ICLR 2021.
+
+<p align="center">
+<img width="600"  src="https://user-images.githubusercontent.com/22279212/147380227-93e3f54a-5fef-42fb-aa57-27e92dcbe09d.png">
+</p>
+
 
 ## Installation
 
@@ -56,16 +61,17 @@ Then `t2t-bleu` is invoked for calculating the BLEU.
 
 
 
-## Implementations of PHM Layers
+## PHM Implementations
 
-The PHM layers are implemented with operations in [`make_random_mul`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L205) and [`random_ffn`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L252), which are mathematically equivalent to sum of Kronecker products.
+PHM is implemented with operations in [`make_random_mul`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L205) and [`random_ffn`](https://github.com/astonzhang/Parameterization-of-Hypercomplex-Multiplications/blob/main/layers/qlib.py#L252), which are mathematically equivalent to sum of Kronecker products.
 
-Alternative implementations and resources of PHM layers can be found at:
+So far there has been a growing number of works using PHM. Alternative PHM implementations can be found at:
 
-* [demegire/Parameterization-of-Hypercomplex-Multiplications](https://github.com/demegire/Parameterization-of-Hypercomplex-Multiplications)
 * [Parameterized Hypercomplex Graph Neural Networks](https://github.com/bayer-science-for-a-better-life/phc-gnn)
 * [COMPACTER: Efficient Low-Rank Hypercomplex Adapter Layers](https://github.com/rabeehk/compacter/tree/main/seq2seq/hypercomplex)
-* [Convolutional Neural Networks by Hypercomplex Parameterization](https://github.com/eleGAN23/HyperNets)
+* [Convolutional Neural Networks by Hypercomplex Parameterization](https://github.com/eleGAN23/HyperNets) <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lightweight-convolutional-neural-networks-by/on-1)](https://paperswithcode.com/sota/on-1?p=lightweight-convolutional-neural-networks-by) -->
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lightweight-convolutional-neural-networks-by/sound-event-detection-on-l3das21)](https://paperswithcode.com/sota/sound-event-detection-on-l3das21?p=lightweight-convolutional-neural-networks-by) 
+* [demegire/Parameterization-of-Hypercomplex-Multiplications](https://github.com/demegire/Parameterization-of-Hypercomplex-Multiplications)
 
 
 ## Citation
