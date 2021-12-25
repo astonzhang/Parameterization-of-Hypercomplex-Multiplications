@@ -65,6 +65,7 @@ Alternative implementations and resources of PHM layers can be found at:
 * [demegire/Parameterization-of-Hypercomplex-Multiplications](https://github.com/demegire/Parameterization-of-Hypercomplex-Multiplications)
 * [Parameterized Hypercomplex Graph Neural Networks](https://github.com/bayer-science-for-a-better-life/phc-gnn)
 * [COMPACTER: Efficient Low-Rank Hypercomplex Adapter Layers](https://github.com/rabeehk/compacter/tree/main/seq2seq/hypercomplex)
+* [Convolutional Neural Networks by Hypercomplex Parameterization](https://github.com/eleGAN23/HyperNets)
 
 
 ## Citation
