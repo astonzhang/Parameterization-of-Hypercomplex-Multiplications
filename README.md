@@ -80,7 +80,7 @@ If you find this repository helpful, please cite our paper:
 ```
 @inproceedings{zhang2021beyond,
   title={Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with $1/n$ Parameters},
-  author={Zhang, Aston and Tay, Yi and Zhang, Shuai and Chan, Alvin and Luu, Anh Tuan and Hui, ‪Siu Cheung and Fu, Jie},
+  author={Zhang, Aston and Tay, Yi and Zhang, Shuai and Chan, Alvin and Luu, Anh Tuan and Hui, Siu Cheung and Fu, Jie},
   booktitle={International Conference on Learning Representations},
   year={2021}
 }
